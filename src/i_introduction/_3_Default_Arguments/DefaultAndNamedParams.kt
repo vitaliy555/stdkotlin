@@ -3,23 +3,28 @@ package i_introduction._3_Default_Arguments
 import util.TODO
 import util.doc2
 
-fun todoTask3(): Nothing = TODO(
-    """
-        Task 3.
-        Several overloads of 'JavaCode3.foo()' can be replaced with one function in Kotlin.
-        Change the declaration of the function 'foo' in a way that makes the code using 'foo' compile.
-        You have to add parameters and replace 'todoTask3()' with a real body.
-        Uncomment the commented code and make it compile.
-    """,
-    documentation = doc2(),
-    references = { name: String -> JavaCode3().foo(name); foo(name) })
+//fun todoTask3(): Nothing = TODO(
+//    """
+//        Task 3.
+//        Several overloads of 'JavaCode3.foo()' can be replaced with one function in Kotlin.
+//        Change the declaration of the function 'foo' in a way that makes the code using 'foo' compile.
+//        You have to add parameters and replace 'todoTask3()' with a real body.
+//        Uncomment the commented code and make it compile.
+//    """,
+//    documentation = doc2(),
+//    references = { name: String -> JavaCode3().foo(name); foo(name) })
 
-fun foo(name: String): String = todoTask3()
+fun todoTask3(name: String, number: Int, toUpperCase: Boolean): String {
+    return (if (toUpperCase) name.toUpperCase() else name) + number
+}
+
+var defaultNumber: Int = 42
+fun foo(name: String, number: Int = defaultNumber, toUpperCase: Boolean = false): String = todoTask3(name, number, toUpperCase)
 
 fun task3(): String {
-    todoTask3()
-//    return (foo("a") +
-//            foo("b", number = 1) +
-//            foo("c", toUpperCase = true) +
-//            foo(name = "d", number = 2, toUpperCase = true))
+//    todoTask3()
+    return (foo("a") +
+            foo("b", number = 1) +
+            foo("c", toUpperCase = true) +
+            foo(name = "d", number = 2, toUpperCase = true))
 }

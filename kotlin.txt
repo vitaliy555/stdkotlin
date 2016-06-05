@@ -61,7 +61,7 @@ ints.filter { it > 0 }
 
 
 К Л А С С Ы 
-1)Конструктор
+1)Конструктор дефолтный
 class Person constructor(firstName: String) {
 }
 если не нужно конструктору писать модификаторы или он НЕ имеет АНОТАЦИЙ(@Injection.... t.c)
@@ -87,3 +87,17 @@ class Person(val firstName: String, val lastName: String, var age: Int) {
 
 
 |||val - var = не изменяемые - изменяемые параметры|||
+2)Кнструктор Второстепеный
+class Person(val name: String) {
+    constructor(name: String, parent: Person) : this(name) {
+        parent.children.add(this)
+    }
+}
+
+*** можно без дефолтного 
+
+*** by default private type for constructor
+
+*** ля jpa и gson....
+easy way declarate:
+class Customer(val customerName: String = "")

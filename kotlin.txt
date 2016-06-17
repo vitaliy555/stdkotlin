@@ -98,6 +98,29 @@ class Person(val name: String) {
 
 *** by default private type for constructor
 
-*** ля jpa и gson....
+*** для jpa и gson....
 easy way declarate:
 class Customer(val customerName: String = "")
+
+3)Наследование, все классы наслед от Any и имеет только такие методы
+equals()
+hashCode()
+toString()
+
+*** чтобы отнаследоватся нужно после Конструктора или Имени Класса поставить : и указать супер тип
+open class Base(p: Int)
+class Derived(p: Int) : Base(p)   <--- если есть Primary конструктор - его реализовуют сразуже при обьявлении наследования
+
+Здесь OPEN - противоположное FINAL in JAVA, по дефф в Котлине все классы FINAL
+
+ЕСЛИ НЕТ Primary а есть Secondary - то реализовать его можно при описании Второго ко-ра с помощю слова SUPER
+
+class MyView : View {
+    constructor(ctx: Context) : super(ctx) {
+    }
+    constructor(ctx: Context, attrs: AttributeSet) : super(ctx, attrs) {
+    }
+}
+
+
+

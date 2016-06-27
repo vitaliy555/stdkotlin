@@ -3,12 +3,102 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.regexp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-core/src/main/java/com/marks/pos/backoffice/core/model/fgl/FglSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-core/src/main/java/com/marks/pos/backoffice/core/service/impl/SearchQueryBuilderService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-core/src/main/resources/app.local.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-core/src/main/resources/app.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-core/src/test/java/com/marks/pos/backoffice/core/feed/parser/FglFeedParserIT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-core/src/test/resources/items-it-fgl.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-facades/src/main/java/com/marks/pos/backoffice/facades/converter/RetailTransactionItemConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-facades/src/main/java/com/marks/pos/backoffice/facades/dto/SaleTransactionItemDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-facades/src/main/java/com/marks/pos/backoffice/facades/facade/impl/DefaultSearchFacade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_backoffice/backoffice-facades/src/test/java/com/marks/pos/backoffice/facades/converter/RetailTransactionItemConverterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../FPOS/Gerrit4/ctco-fpos/pos_ui/app/modules/pos/generic/cart-item-features/price-change/menu/priceChangeMenu.template.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/kotlin.txt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/i_introduction/_6_Data_Classes/DataClasses.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/i_introduction/_7_Nullable_Types/my.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/i_introduction/_8_Smart_Casts/SmartCasts.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/i_introduction/_8_Smart_Casts/cast.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/i_introduction/_9_Extension_Functions/ExtensionFunctions.kt">
           <value>
             <set />
           </value>

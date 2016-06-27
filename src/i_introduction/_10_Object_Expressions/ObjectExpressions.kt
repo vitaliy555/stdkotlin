@@ -22,4 +22,3 @@ fun task10(): List<Int> {
     Collections.reverse(arrayList)
     return arrayList
 }
-fun myComporator() ={}

@@ -6,6 +6,8 @@ import ii_collections.Product
 import ii_collections.shopBuilders.customer
 import ii_collections.shopBuilders.order
 import ii_collections.shopBuilders.shop
+import v_builders.htmlLibrary.html
+
 
 //products
 val idea = Product("IntelliJ IDEA Ultimate", 199.0)
@@ -38,6 +40,7 @@ val Ankara = City("Ankara")
 val Tokyo = City("Tokyo")
 
 val shop = shop("test shop") {
+
     customer(lucas, Canberra) {
         order(reSharper)
         order(reSharper, dotMemory, dotTrace)
@@ -80,3 +83,8 @@ val groupedByCities = mapOf(
         Ankara to listOf(bajram),
         Tokyo to listOf(asuka, riku)
 ).mapValues { it.value.map { name -> customers[name] } }
+
+var htmlFun = html{
+
+
+}

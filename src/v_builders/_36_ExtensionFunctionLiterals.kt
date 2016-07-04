@@ -14,11 +14,13 @@ fun todoTask36(): Nothing = TODO(
 )
 
 fun task36(): List<Boolean> {
-    val isEven: Int.() -> Boolean = { todoTask36() }
-    val isOdd: Int.() -> Boolean = { todoTask36() }
+    val isEven: Int.() -> Boolean = { this.mod(2)==0}
+    val isOdd: Int.() -> Boolean = { !this.isEven() }
 
     return listOf(42.isOdd(), 239.isOdd(), 294823098.isEven())
 }
 
 
-
+fun main(args: Array<String>) {
+    print(6.mod(2))
+}
